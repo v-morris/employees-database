@@ -8,25 +8,25 @@ What I'd currently like to improve-- <br/>
 -Displaying list better after correcting JSON.<br/>
 
 
-SETUP
+SETUP<br/>
 
-http://localhost:3001/api/v1/employees  -- Full list of employees as JSON
-http://localhost:3001/api/v1/employees/:id --Individual employee as JSON
+http://localhost:3001/api/v1/employees  -- Full list of employees as JSON<br/>
+http://localhost:3001/api/v1/employees/:id --Individual employee as JSON<br/>
 
 
-POSTGRESQL
-Create User 
-Username: employees-api
-Password: password1
-
-BACKEND - employees-api folder
-bundle install
-rake db:setup
-rails s -p 3001
-
-FRONTEND - employees folder
-npm install
-npm start
-Runs on port 3000
-
+POSTGRESQL<br/>
+Create User <br/>
+Username: employees-api<br/>
+Password: password1<br/>
+<br/><br/>
+BACKEND - employees-api folder<br/>
+bundle install<br/>
+rake db:setup<br/>
+rails s -p 3001<br/>
+<br/><br/>
+FRONTEND - employees folder<br/>
+npm install<br/>
+npm start<br/>
+Runs on port 3000<br/>
+<br/><br/>
 Both frontend and back end must be running.
